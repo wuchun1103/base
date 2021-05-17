@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin-common" />
+        <module name="admin-core" />
+        <module name="admin-entity" />
+        <module name="admin-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="admin-code" target="1.8" />
+      <module name="admin-common" target="1.8" />
+      <module name="admin-core" target="1.8" />
+      <module name="admin-entity" target="1.8" />
+      <module name="admin-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-common" options="-parameters" />
+      <module name="admin-core" options="-parameters" />
+      <module name="admin-entity" options="-parameters" />
+      <module name="admin-web" options="-parameters" />
+    </option>
+  </component>
+</project>
