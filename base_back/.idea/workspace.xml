@@ -1,7 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4be3b5ff-4165-4d0b-b482-2fec1b73f00d" name="Default Changelist" comment="" />
+    <list default="true" id="4be3b5ff-4165-4d0b-b482-2fec1b73f00d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/admin-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-common/src/main/java/org/example/common/constants/SysConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-common/src/main/java/org/example/common/constants/SysConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-common/src/main/java/org/example/common/enums/sys/EnumDeleteFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-common/src/main/java/org/example/common/enums/sys/EnumDeleteFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-common/src/main/java/org/example/common/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-common/src/main/java/org/example/common/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-common/target/classes/org/example/common/constants/SysConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-common/target/classes/org/example/common/enums/sys/EnumDeleteFlag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-common/target/classes/org/example/common/utils/CommonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/src/main/java/org/example/core/exception/KfmException.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-core/src/main/java/org/example/core/exception/KfmException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/src/main/java/org/example/core/http/HttpResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-core/src/main/java/org/example/core/http/HttpResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/src/main/java/org/example/core/http/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-core/src/main/java/org/example/core/http/HttpStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/target/classes/org/example/core/exception/KfmException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/target/classes/org/example/core/http/HttpResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-core/target/classes/org/example/core/http/HttpStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/src/main/java/org/example/entity/sys/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/src/main/java/org/example/entity/sys/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/src/main/java/org/example/entity/sys/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/src/main/java/org/example/entity/sys/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/src/main/java/org/example/entity/sys/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/src/main/java/org/example/entity/sys/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/src/main/java/org/example/entity/sys/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/src/main/java/org/example/entity/sys/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/src/main/java/org/example/entity/sys/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/src/main/java/org/example/entity/sys/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/src/main/java/org/example/entity/sys/UserToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-entity/src/main/java/org/example/entity/sys/UserToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/target/classes/org/example/entity/sys/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/target/classes/org/example/entity/sys/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/target/classes/org/example/entity/sys/RoleMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/target/classes/org/example/entity/sys/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/target/classes/org/example/entity/sys/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-entity/target/classes/org/example/entity/sys/UserToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/DruidDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/DruidDBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/FinalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/FinalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/MyControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/MyControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/SessionRedisDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/SessionRedisDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/mapper/sys/MenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/mapper/sys/MenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/mapper/sys/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/mapper/sys/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/mapper/sys/RoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/mapper/sys/RoleMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/mapper/sys/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/mapper/sys/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/mapper/sys/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/mapper/sys/UserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/oauth2/OAuth2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/oauth2/OAuth2Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/oauth2/OAuth2Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/oauth2/OAuth2Realm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/oauth2/OAuth2Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/oauth2/OAuth2Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/redis/RedisTemplateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/redis/RedisTemplateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/redis/ShiroRedisTemplateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/redis/ShiroRedisTemplateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/IMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/IMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/IRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/IRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/ISysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/ISysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/IUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/IUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/impl/RoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/impl/SysSysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/impl/SysSysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/impl/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/PasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/PasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/ShiroUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/page/ColumnFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/page/ColumnFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/page/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/page/PageRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/page/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/page/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/util/page/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/util/page/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/java/org/example/web/vo/LoginBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/java/org/example/web/vo/LoginBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-web/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/mapper/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/DruidDBConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/FinalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/MyControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/MybatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/SessionRedisDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/config/ShiroConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/controller/sys/SysLoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/controller/sys/SysMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/controller/sys/SysRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/controller/sys/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/mapper/sys/MenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/mapper/sys/RoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/mapper/sys/RoleMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/mapper/sys/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/mapper/sys/UserRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/oauth2/OAuth2Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/oauth2/OAuth2Realm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/oauth2/OAuth2Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/redis/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/redis/RedisTemplateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/redis/ShiroRedisTemplateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/IMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/IRoleMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/ISysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/IUserRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/impl/MenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/impl/RoleMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/impl/SysSysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/service/sys/impl/UserRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/PasswordUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/ShiroUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/TokenGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/page/ColumnFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/page/PageRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/page/PageResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/util/page/PageUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-web/target/classes/org/example/web/vo/LoginBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +154,9 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -42,6 +174,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1seTopkgL8VYcS4d1NdgrWIyPW6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,7 +201,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="admin-web" />
+      <module name="base-web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.web.*" />
@@ -98,6 +231,7 @@
       <updated>1620976124877</updated>
       <workItem from="1620976127798" duration="2819000" />
       <workItem from="1621232234279" duration="7035000" />
+      <workItem from="1621317620373" duration="415000" />
     </task>
     <servers />
   </component>
@@ -178,22 +312,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysLoginController.java</url>
+          <url>file://$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysLoginController.java</url>
           <line>71</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysLoginController.java</url>
+          <url>file://$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysLoginController.java</url>
           <line>34</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin-web/src/main/java/org/example/web/service/sys/impl/MenuServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/base-web/src/main/java/org/example/web/service/sys/impl/MenuServiceImpl.java</url>
           <line>46</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/admin-web/src/main/java/org/example/web/controller/sys/SysMenuController.java</url>
+          <url>file://$PROJECT_DIR$/base-web/src/main/java/org/example/web/controller/sys/SysMenuController.java</url>
           <line>39</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>

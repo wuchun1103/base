@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/admin.iml" filepath="$PROJECT_DIR$/admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-code.iml" filepath="$PROJECT_DIR$/admin-code.iml" />
-      <module fileurl="file://$PROJECT_DIR$/admin-common/admin-common.iml" filepath="$PROJECT_DIR$/admin-common/admin-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/admin-core/admin-core.iml" filepath="$PROJECT_DIR$/admin-core/admin-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/admin-entity/admin-entity.iml" filepath="$PROJECT_DIR$/admin-entity/admin-entity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/admin-web/admin-web.iml" filepath="$PROJECT_DIR$/admin-web/admin-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base.iml" filepath="$PROJECT_DIR$/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-common/base-common.iml" filepath="$PROJECT_DIR$/base-common/base-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-core/base-core.iml" filepath="$PROJECT_DIR$/base-core/base-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-entity/base-entity.iml" filepath="$PROJECT_DIR$/base-entity/base-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-web/base-web.iml" filepath="$PROJECT_DIR$/base-web/base-web.iml" />
     </modules>
   </component>
 </project>
