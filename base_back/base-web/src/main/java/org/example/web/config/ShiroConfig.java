@@ -23,7 +23,7 @@ public class ShiroConfig {
 
     @Autowired(required=true)
     private SessionRedisDao sessionDao;
-	
+
 
 
     @Bean

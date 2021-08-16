@@ -4,16 +4,17 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.example.common.constants.SysConstants;
 import org.example.common.utils.CommonUtil;
 import org.example.core.http.HttpResult;
 import org.example.entity.sys.SysUser;
+import org.example.web.annotation.sysLog;
 import org.example.web.service.sys.ISysUserService;
 import org.example.web.util.ShiroUtils;
 import org.example.web.util.page.PageRequest;
 import org.example.web.util.page.PageResult;
 import org.example.web.util.page.PageUtils;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -35,6 +36,7 @@ public class SysUserController {
 
     @RequiresPermissions({"sys:user:add", "sys:user:edit"})
     @PostMapping(value="/save")
+    @sysLog
     public HttpResult save(@RequestBody SysUser record) {
         SysUser user =userService.getById(record.getId());
         if(user != null) {
@@ -144,6 +146,12 @@ public class SysUserController {
     public HttpResult findByDocCode(@RequestParam String name) {
         return HttpResult.ok(userService.getOne(new QueryWrapper<SysUser>().lambda()
                 .eq(SysUser::getLoginName,name)));
+    }
+
+
+    @GetMapping(value="/testGet")
+    public String testGet() {
+       return "测试成功";
     }
 
 }

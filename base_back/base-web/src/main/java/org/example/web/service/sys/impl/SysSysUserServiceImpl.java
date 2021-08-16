@@ -15,6 +15,7 @@ import org.example.web.mapper.sys.SysUserMapper;
 import org.example.web.mapper.sys.UserRoleMapper;
 import org.example.web.service.sys.ISysUserService;
 import org.example.web.util.page.PageResult;
+import org.example.web.vo.SysLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -105,6 +106,11 @@ public class SysSysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> i
             sysUser.setUserRoles(userRoles);
             sysUser.setRoleNames(getRoleNames(userRoles));
         }
+    }
+
+    @Override
+    public void inserLog(SysLog s) {
+        menuMapper.insertSysLog(s);
     }
 
     private String getRoleNames(List<UserRole> userRoles) {
