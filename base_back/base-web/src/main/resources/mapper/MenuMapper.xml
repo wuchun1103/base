@@ -36,4 +36,9 @@
     and m.id = rm.menu_id
   </select>
 
+    <insert id="insertSysLog" parameterType="org.example.web.vo.SysLog" useGeneratedKeys="true" keyProperty="id">
+     insert  into sys_log (type,name ,create_time,update_time) values (#{type},#{name},#{createTime},#{updateTime})
+
+    </insert>
+
 </mapper>
